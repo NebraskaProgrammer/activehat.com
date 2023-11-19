@@ -1,40 +1,40 @@
 {
-	"name": "ActiveHat LLC",
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
-	"postCreateCommand": "sudo apt-get update && sudo apt-get install -y bash-completion && npm install",
-	"features": {},
-	"customizations": {
-		"vscode": {
-			"settings": {
-			  "[javascript]": {
-				"editor.defaultFormatter": "esbenp.prettier-vscode"
-			  },
-			  "[typescript]": {
-				"editor.defaultFormatter": "esbenp.prettier-vscode"
-			  },
-			  "editor.defaultFormatter": "esbenp.prettier-vscode",
-			  "files.associations": {
-				"*.env.*": "env",
-				"*.env.development": "env",
-				"*.env.test": "env",
-				"*.env.production": "env",
-				"*.env.local": "env",
-				"*.env.*.local": "env"
-			  },
-			  "typescript.suggestionActions.enabled": false,
-			  "javascript.suggestionActions.enabled": false
-			},
-			"extensions": [
-			  "dbaeumer.vscode-eslint",
-			  "esbenp.prettier-vscode",
-			  "irongeek.vscode-env",
-			  "ecmel.vscode-html-css",
-			  "zignd.html-css-class-completion",
-			  "bradlc.vscode-tailwindcss",
-			  "austenc.tailwind-docs",
-			  "eamodio.gitlens",
-			  "github.copilot"
-			]
-		  }
-	}
+  "name": "ActiveHat LLC",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y bash-completion && npm install",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "[javascript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[typescript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "files.associations": {
+          "*.env.*": "env",
+          "*.env.development": "env",
+          "*.env.test": "env",
+          "*.env.production": "env",
+          "*.env.local": "env",
+          "*.env.*.local": "env"
+        },
+        "typescript.suggestionActions.enabled": false,
+        "javascript.suggestionActions.enabled": false
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "irongeek.vscode-env",
+        "ecmel.vscode-html-css",
+        "zignd.html-css-class-completion",
+        "bradlc.vscode-tailwindcss",
+        "austenc.tailwind-docs",
+        "eamodio.gitlens",
+        "github.copilot"
+      ]
+    }
+  }
 }
